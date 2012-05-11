@@ -1,22 +1,26 @@
-/*
- * main.c
+/*!
+ * \file main.c
  *
- *  Created on: 2012.05.01.
- *      Author: tomi
+ * \date Created on: 2012.05.01.
+ * \author     Author: tomi
  *
- * Pr骲a project Eclipse alatt
+ * Pr贸ba project Eclipse alatt
  */
 
 //#define F_CPU 4000000L  /* 4 MHz CPU clock ATmega16 project*/
 
-#define LED_DIR DDRA
-#define LED_PORT PORTA
-#define LED_PIN PA0
-
+/** \addtogroup Led output definici贸k
+ *  @{
+ */
+#define LED_DIR DDRA	/*!< Led direction regiszter definici贸. */
+#define LED_PORT PORTA	/*!< Led port regiszter definici贸. */
+#define LED_PIN PA0		/*!< Led pin definici贸 */
+/** @}*/
 #include <util/delay.h>
 #include <avr/io.h>
 #include "function.h"
 
+/// Main f眉ggv茅ny
 int main (void)
 {
     //DDRA out;

@@ -1,6 +1,6 @@
 hello_world_ATmega16
 ====================
 
-Led villogtatása delay.h felhasználásával.
+Led villogtatÃ¡sa delay.h felhasznÃ¡lÃ¡sÃ¡val.
 
 

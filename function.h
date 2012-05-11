@@ -1,19 +1,28 @@
-/*
- * function.h
+/*!
+ * \file function.h
  *
- *  Created on: 2012.05.01.
- *      Author: tomi
+ * \date Created on: 2012.05.01.
+ * \author Author: tomi
+ *
+ * Led kezelő függvények definiciója
  */
-
 #ifndef FUNCTION_H_
 #define FUNCTION_H_
 
-static inline void ledON(void)
+/*!
+ *
+ * Led bekapcsolása
+ *
+ */
+inline void ledON(void)
 {
-	LED_PORT |= _BV(LED_PIN);
+	LED_PORT |= _BV(LED_PIN); // Led bekapcsolása
 }
 
-static inline void ledOff(void)
+/*!
+ * Led kikapcsolása
+ */
+inline void ledOff(void)
 {
     LED_PORT&= ~_BV(LED_PIN);
 }

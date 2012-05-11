@@ -32,7 +32,7 @@ PROJECT_NAME = Example project for ATmega16
 # This could be handy for archiving the generated documentation or
 # if some version control system is used.
 
-PROJECT_NUMBER = 
+PROJECT_NUMBER = v0.01
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer
@@ -74,7 +74,7 @@ CREATE_SUBDIRS = NO
 # Polish, Portuguese, Romanian, Russian, Serbian, Serbian-Cyrillic, Slovak,
 # Slovene, Spanish, Swedish, Ukrainian, and Vietnamese.
 
-OUTPUT_LANGUAGE = English
+OUTPUT_LANGUAGE = Hungarian
 
 # If the BRIEF_MEMBER_DESC tag is set to YES (the default) Doxygen will
 # include brief member descriptions after the members that are listed in
@@ -369,13 +369,13 @@ EXTRACT_PACKAGE = NO
 # If the EXTRACT_STATIC tag is set to YES all static members of a file
 # will be included in the documentation.
 
-EXTRACT_STATIC = NO
+EXTRACT_STATIC = YES
 
 # If the EXTRACT_LOCAL_CLASSES tag is set to YES classes (and structs)
 # defined locally in source files will be included in the documentation.
 # If set to NO only classes defined in header files are included.
 
-EXTRACT_LOCAL_CLASSES = YES
+EXTRACT_LOCAL_CLASSES = NO
 
 # This flag is only useful for Objective-C code. When set to YES local
 # methods, which are defined in the implementation section but not in
@@ -457,7 +457,7 @@ FORCE_LOCAL_INCLUDES = NO
 # If the INLINE_INFO tag is set to YES (the default) then a tag [inline]
 # is inserted in the documentation for inline members.
 
-INLINE_INFO = YES
+INLINE_INFO = NO
 
 # If the SORT_MEMBER_DOCS tag is set to YES (the default) then doxygen
 # will sort the (detailed) documentation of file and class members
@@ -661,7 +661,7 @@ WARN_LOGFILE =
 # directories like "/usr/src/myproject". Separate the files or directories
 # with spaces.
 
-INPUT = . 
+INPUT = .
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding, which is
@@ -788,7 +788,7 @@ FILTER_SOURCE_PATTERNS =
 # Note: To get rid of all source code in the generated output, make sure also
 # VERBATIM_HEADERS is set to NO.
 
-SOURCE_BROWSER = NO
+SOURCE_BROWSER = YES
 
 # Setting the INLINE_SOURCES tag to YES will include the body
 # of functions and classes directly in the documentation.
@@ -1130,7 +1130,7 @@ DISABLE_INDEX = NO
 # Since the tree basically has the same information as the tab index you
 # could consider to set DISABLE_INDEX to NO when enabling this option.
 
-GENERATE_TREEVIEW = NO
+GENERATE_TREEVIEW = YES
 
 # The ENUM_VALUES_PER_LINE tag can be used to set the number of enum values
 # (range [0,1..20]) that doxygen will group on one line in the generated HTML
